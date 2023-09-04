@@ -33,7 +33,11 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--text-color);
-  background-color: var(--bg-color);
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 body.dark {
   --bg-color: #111116;
