@@ -13,7 +13,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Language Translater</title>
+    <title>Arno Kamminga Translate</title>
   </head>
   <body>
     <div class="mode">
@@ -29,11 +29,11 @@
     <div class="container">
       <div class="card input-wrapper">
         <div class="from">
-          <span class="heading">From :</span>
+          <span class="heading">Van :</span>
           <div class="dropdown-container" id="input-language">
             <div class="dropdown-toggle">
               <ion-icon name="globe-outline"></ion-icon>
-              <span class="selected" data-value="auto">Auto Detect</span>
+              <span class="selected" data-value="auto">Automatisch (Detecteren)</span>
               <ion-icon name="chevron-down-outline"></ion-icon>
             </div>
             <ul class="dropdown-menu">
@@ -47,14 +47,14 @@
             id="input-text"
             cols="30"
             rows="10"
-            placeholder="Enter your text here"
+            placeholder="Type je tekst hier"
           ></textarea>
           <div class="chars"><span id="input-chars">0</span> / 5000</div>
         </div>
         <div class="card-bottom">
-          <p>Or choose your document!</p>
+          <p>Of upload een document!</p>
           <label for="upload-document">
-            <span id="upload-title">Choose File</span>
+            <span id="upload-title">Upload bestand</span>
             <ion-icon name="cloud-upload-outline"></ion-icon>
             <input type="file" id="upload-document" hidden />
           </label>
@@ -69,11 +69,11 @@
 
       <div class="card output-wrapper">
         <div class="to">
-          <span class="heading">To :</span>
+          <span class="heading">Naar :</span>
           <div class="dropdown-container" id="output-language">
             <div class="dropdown-toggle">
               <ion-icon name="globe-outline"></ion-icon>
-              <span class="selected" data-value="en">Englsih</span>
+              <span class="selected" data-value="en">Engels</span>
               <ion-icon name="chevron-down-outline"></ion-icon>
             </div>
             <ul class="dropdown-menu">
@@ -86,11 +86,11 @@
           id="output-text"
           cols="30"
           rows="10"
-          placeholder="Translated text will appear here"
+          placeholder="Hier komt de vertaling te staan"
           disabled
         ></textarea>
         <div class="card-bottom">
-          <p>Download as a document!</p>
+          <p>Download als document!</p>
           <button id="download-btn">
             <span>Download</span>
             <ion-icon name="cloud-download-outline"></ion-icon>
